@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    
+}
+.top-banner-area{
+    display: flex;
+    width: 100%;
+}
+.banner-content{}
+.banner-content h1{}
+.color-orange{
+    color: orange;
+}
+.banner-content h2{}
+.banner-content p{}
+.price{}
+.banner-image{}
+.banner-image img{}
