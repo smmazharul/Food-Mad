@@ -3,20 +3,99 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* ======banner part start======== */
 .top-banner{
-    
+    margin-bottom: 9%;
 }
 .top-banner-area{
     display: flex;
     width: 100%;
+    padding: 3%;
 }
-.banner-content{}
-.banner-content h1{}
+.banner-content{
+    width: 50%;
+    margin-top: 7%;
+}
+.banner-content h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: gray;
+    margin-bottom: 20px;
+}
 .color-orange{
     color: orange;
 }
-.banner-content h2{}
-.banner-content p{}
-.price{}
+.banner-content h2{
+    font-size: 32px;
+}
+.banner-content p{
+    color:gray;
+    margin-bottom: 25px;
+}
+.banner-content a{
+    background-image:linear-gradient(orange,tomato) ;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    
+}
+.price{
+    font-size: 25px;
+    color: gray;
+    font-weight: 600;
+    margin-left: 20px;
+    text-decoration: underline;
+}
 .banner-image{}
-.banner-image img{}
+.banner-image img{
+    margin-top: 45px;
+    border-radius: 49% 22%;
+    width: 553px;
+}
+
+/*=============== banner part end ============== */
+
+
+/*=============== Middle banner part start ============== */
+#middle-banner{
+    
+    background-image: url(../Images/final-middle-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    
+  
+}
+.about{
+    margin-left: 70%;
+    padding-top: 6%;
+  
+}
+.about h1{
+    font-weight: 900;
+    color: white;
+}
+.about-text{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.about p{
+    margin-bottom: 20px;
+}
+.about a{
+    background-image: linear-gradient(#ffffff,#000000);
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+/* --============= Middle banner part end  ==========-- */
