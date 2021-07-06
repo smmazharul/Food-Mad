@@ -100,6 +100,7 @@ border-radius: 10px;
 .recipies{
 margin: 0 auto;
 width: 50%;
+margin-bottom: 10%;
 }
 .recipies-content{
 text-align: center;
@@ -116,13 +117,118 @@ text-align: center;
 /* ============End Recipies part============== */
 
 
+/* ============Start card part============== */
+
+.card-part{
+    display: flex;
+    margin-bottom: 10%;
+   
+}
+.card{
+    width: 24%;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 40px grey;
+
+}
+.card img{
+    border-radius: 20px;
+    margin: 15px;
+    width: 430px;
+}
+
+.card h1{
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 800;
+    color: orange;
+}
+.card h3{
+    margin-left: 10px;
+    color: gray;
+}
+.card p{
+    padding: 10px;
+    
+    text-align: justify;
+}
+/* ============End card part============== */
 
 
 
+/* ============Start subscriber part==============  */
+
+.subscriber-part{
+    margin-bottom: 10%;
+}
+.sub-content{
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 40px grey;
+    
+    
+}
+.sub{
+    margin-left: 11%;
+    margin-right: 19%;
+    
+}
+.sub h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+}
+.sub p{
+    width: 202%;
+}
+/* ============End subscriber part==============  */
+
+/* ============Start footer  part==============  */
+.contact-part{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-part h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: gray;
+    text-decoration: underline;text-decoration-color: orange;
+}
+.contact-area{}
+.contact-area input{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contact-area a{
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    
+}
 
 
 
+/* ============Start footer  part==============  */
 
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
 
 
 
